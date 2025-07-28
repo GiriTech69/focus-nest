@@ -1,0 +1,18 @@
+{
+  "name": "focus-nest",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*", "backend"],
+  "scripts": {
+    "start-backend": "bun run dev --cwd backend",
+    "start-web": "bun run dev --cwd apps/web",
+    "start-extension": "bun run dev --cwd apps/extension",
+    
+    "build-backend": "bun run build --cwd backend",
+    "build-web": "bun run build --cwd apps/web",
+    "build-extension": "bun run build --cwd apps/extension",
+    
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  }
+}
