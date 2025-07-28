@@ -1,6 +1,6 @@
 <h1 align="center">Focus-Nest ⏱️</h1>
 
-<div align="">
+<div align="center">
 
 ![Status](https://img.shields.io/badge/status-ongoing-orange)
 ![Built with Bun](https://img.shields.io/badge/Bun-F472B6?style=flat&logo=bun&logoColor=white)
