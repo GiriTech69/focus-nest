@@ -1,0 +1,14 @@
+{
+  "name": "focus-nest-server",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
